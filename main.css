@@ -1,0 +1,134 @@
+body {
+    overflow-x: hidden;
+    width: 100%;
+    font-size: 14px; /* slightly larger base font-size */
+    font-family: 'Montserrat', sans-serif; /* use Montserrat throughout for a unified look */
+    background: #f4f4f4; /* lighter background */
+    min-height: 550px;
+    background-attachment: fixed;
+}
+
+.bg {
+    min-height: 540px;
+}
+
+.bg1 {
+    background-image: url(../image/bg.jpg); /* ensure your path is correct */
+    min-height: 535px;
+}
+
+.panel {
+    border: 1px solid #ccc; /* lighter border */
+    margin: 40px;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif; /* unified font family */
+}
+
+.title {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+    background: #003366; /* updated to match your theme color */
+    height: 70px;
+}
+
+.logo {
+    font-size: 35px;
+    color: #ffbb33; /* keep the accent color */
+    margin: 15px;
+}
+
+
+.header
+{
+background:#f4511e;
+height:70px;
+}
+.logo
+{
+font-family: 'Montserrat, sans-serif';
+font-size:35px;
+color:#ffbb33;
+margin:15px;
+}
+
+.title1{
+font: 16px "Century Gothic", "Times Roman", sans-serif;
+}
+.title2{
+font-family: 'Ubuntu', sans-serif;
+font-size:20px;
+}
+
+
+.sub1, .sub {
+    background-color: var(--button-color); /* use CSS variables if set */
+    color: white;
+    border: none; /* remove default borders */
+    transition: background-color 0.3s, color 0.3s; /* smooth transition for hover effects */
+}
+
+.sub1:hover, .sub:hover {
+    background-color: var(--button-hover-color); /* darker on hover */
+    color: #fff; /* ensure text is white on hover */
+}
+
+.log, .footer a {
+    color: #fff; /* consistent color for all links */
+    text-decoration: none;
+}
+
+.log:hover, .footer a:hover {
+    color: var(--accent-color); /* consistent hover effect */
+    border-top: 2px solid #ffbb33; /* matching the logo color */
+}
+
+
+.box
+{
+padding:9px;
+}
+hr{
+color:#000000;
+}
+.top
+{
+margin-top:20px;
+}
+.log1
+{
+font: 15px 'Montserrat', sans-serif;
+color:#fff;
+margin-left:10px;
+}
+
+.log
+{
+margin:10px;
+margin-right:60px;
+margin-left:5px;
+color:#fff;
+text-decoration:none;
+font-size:20px;
+font-size:15px;
+}
+.log:hover
+{
+color:#9acd32;
+border-top:2px solid;
+border-color:orange;
+text-decoration:none;
+}
+
+.footer {
+    font-size: 15px;
+    text-align: center;
+    border-top: 1px solid #ccc;
+    background-color: #003366; /* dark blue background */
+    color: white; /* white text for readability */
+}
+
+hr {
+    border-top: 1px solid #ccc; /* softer line color */
+}
